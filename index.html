@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Super Metroid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/src/imagens/favicon.ico">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>Metroid</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Samus Aran</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Samus.webp"
+            alt="Samus Aran"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Samus Aran (サムス・アラン, Samusu Aran) é a personagem principal e protaganista da série Metroid. Apresentada ao público em 1986 no jogo Metroid, Samus é uma Human Bounty Hunter (caçadora de recompensas humana) famosa por cumprir missões aparentemente impossíveis.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Ridley</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/super_metroid___ridley.jpg" 
+            alt="Ridley"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Ridley (リドリー, Ridorii) é um personagem marcante na série de jogos Metroid. É o líder das tropas dos Space Pirates, liderados por Mother Brain.  Ridley é particularmente conhecido por sempre retornar após suas derrotas contra a caçadora de recompensas, seja por suas habilidades de cura, clone ou aprimoramento robótico.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">Mother Brain</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Motherbrain.webp"
+            alt="Jubiléia"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Mother Brain (マザー ブレイン, Maza Burein) é a antagonista e principal chefe da série Metroid. Ela é uma inteligência artificial fria e mal-humorada criada pelos Chozo, mas se voltou contra eles quando Ridley e os Space Pirates invadiram Zebes. Mother Brain viu potencial nos piratas e decidiu que com a ajuda deles, ela poderia trazer a verdadeira ordem para o universo de "repor tudo de volta ao zero".
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome"> Kraid</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Kraid_29.webp"
+            alt=" Kraid"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Kraid (クレイドKureido ? ) é um corpulento extraterrestre reptiliano verde de três olhos da série Metroid . Ele é um Pirata Espacial e um dos maiores inimigos que Samus Aran já encontrou em suas missões, ocupando várias telas ao mesmo tempo. Ele é apresentado como um chefe em Metroid , seu remake Metroid: Zero Mission , Super Metroid e Metroid Dread .
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">Phantoon</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/phantoon-from-super-metroid.jpg"
+            alt="Phantoon"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Phantoon (ファントゥーンFantūn ) é uma entidade espectral que é principalmente intangível e, portanto, invulnerável a qualquer forma de ataque, exceto por seu único olho. É este olho que, quando aberto, serve como sua conexão com o mundo corpóreo e pode ser danificado. Phantoon se assemelha a um cefalópode gigante com um único olho dentro de uma grande pálpebra em forma de boca.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-6">
+          <h2 class="nome">Draygon</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/metroid___draygon.png"
+            alt="Draygon"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O Draygon (ドレイゴンDoreigon ? ) é um grande chefe de Super Metroid . É uma espécie de crustáceo aquático , com uma casca externa dura e barriga mole. Parece ser um Evir totalmente desenvolvido e até tem alguns filhotes, que estão presentes na câmara em que ele habita. Ele é encontrado em sua própria câmara , uma das últimas salas acessíveis de Maridia .
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+
+  </body>
+</html>
